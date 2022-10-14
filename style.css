@@ -5,3 +5,44 @@
     box-sizing: border-box; 
     font-family: 'Poppins', sans-serif;
 }
+
+.top_banner{
+    position: absolute;
+}
+.mainpart{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    padding: 0px 120px;
+}
+
+.content{
+    width: 500px;
+    height: 700px;
+    margin-top: 45px;
+    display: flex;
+    flex-direction: column;
+}
+
+.content .heading{
+    display: flex;
+    flex-direction: column;
+    row-gap: 40px;
+    font-size: 25px;
+}
+
+.content .heading h1 span{
+    color:orange;
+
+}
+.subheading{
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+.profile_image img{
+    width: 450px;
+    height: 450px;
+}
