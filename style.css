@@ -5,44 +5,67 @@
     box-sizing: border-box; 
     font-family: 'Poppins', sans-serif;
 }
+/* ===========css for Top section ================ */
 
-.top_banner{
-    position: absolute;
+.top_section{
+    background-image: url(image/top-banner.png);
+    background-repeat: no-repeat;
+
 }
 .mainpart{
-    width: 100%;
-    height: 100vh;
-    position: relative;
     display: flex;
-    padding: 0px 120px;
+    justify-content: space-between;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 2%;
+    height: 500px;
 }
-
-.content{
-    width: 500px;
-    height: 700px;
-    margin-top: 45px;
-    display: flex;
-    flex-direction: column;
-}
-
-.content .heading{
-    display: flex;
-    flex-direction: column;
-    row-gap: 40px;
-    font-size: 25px;
-}
-
-.content .heading h1 span{
-    color:orange;
-
-}
-.subheading{
-    margin-top: 15px;
-    display: flex;
-    flex-direction: column;
-    row-gap: 10px;
+.profile_image{
+    width: 40%;
 }
 .profile_image img{
-    width: 450px;
-    height: 450px;
+    width: 100%;
 }
+.content{
+    margin-top: 35px;
+    height: calc(500px - 35px);
+    width: 40%;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    
+}
+.content h1{
+    font-size: 54px;
+}
+.content h3{
+    font-size: 25px;
+}
+.content p{
+    font-size: 18px;
+    opacity: 0.5 ;
+}
+
+.heading{
+    font-size: 25px;
+}
+.heading span{
+     color: orange;
+}
+.button{
+    margin-top: 30px;
+    background-color: orange;
+    padding: 10px;
+    height: 50px;
+    width: 130px;
+    text-align: center;
+    border-radius: 5px;
+    
+}
+.button a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;  
+}
+/* ===========css for Middle section ================ */
